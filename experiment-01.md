@@ -1,3 +1,8 @@
+---
+layout: default
+title: Experiment 1
+---
+
 # Experiment 1: Creation and Management of a Virtual Machine Using Vagrant
 
 ## Aim
