@@ -55,9 +55,6 @@ docker history
 
 ![](images/exp4/exp4-5.png)
 
-### Application Response
-
-![](images/exp4/exp4-6.png)
 
 ### Docker Logs
 
@@ -65,7 +62,6 @@ docker history
 
 ### Docker History
 
-![](images/exp4/exp4-8.png)
 
 ## Result
 

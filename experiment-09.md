@@ -60,34 +60,6 @@ docker ps
 
 ![](images/exp9/exp9-7.png)
 
-### Verification Output
-
-![](images/exp9/exp9-8.png)
-
-### Docker Container
-
-![](images/exp9/exp9-9.png)
-
-### Final Output
-
-![](images/exp9/exp9-10.png)
-
-### Additional Verification
-
-![](images/exp9/exp9-11.png)
-
-### Successful Execution
-
-![](images/exp9/exp9-12.png)
-
-### Final Result
-
-![](images/exp9/exp9-13.png)
-
-### Completed Experiment
-
-![](images/exp9/exp9-14.png)
-
 ## Result
 
 Ansible was successfully configured and used to automate system configuration. The inventory file and playbook were executed successfully, and the desired configuration was applied and verified.
