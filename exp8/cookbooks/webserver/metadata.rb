@@ -1,0 +1,7 @@
+name 'webserver'
+maintainer 'Sannidhya Sinha'
+maintainer_email 'student@example.com'
+license 'All Rights Reserved'
+description 'Installs and configures Nginx using Chef'
+version '1.0.0'
+chef_version '>= 15.0'

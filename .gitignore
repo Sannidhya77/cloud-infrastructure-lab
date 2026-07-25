@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Java and Maven generated files
+target/
+*.class
+*.jar
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Secrets and environment files
+.env
+*.token

@@ -1,0 +1,22 @@
+FROM ubuntu:22.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y \
+    python3 \
+    openssh-server \
+    sudo \
+    curl && \
+    apt-get clean
+
+RUN mkdir -p /var/run/sshd && \
+    echo 'root:chef' | chpasswd && \
+    sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
+    sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+
+RUN mkdir -p /root/.ssh && chmod 700 /root/.ssh
+
+EXPOSE 22
+
+CMD ["/usr/sbin/sshd","-D"]

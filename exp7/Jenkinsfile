@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    environment {
+        IMAGE_NAME = "your-dockerhub-username/myapp"
+    }
+
+    stages {
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t $IMAGE_NAME:latest .'
+            }
+        }
+    }
+}
